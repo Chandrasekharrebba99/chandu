@@ -92,7 +92,8 @@ const responceobj = {
     number:"6302888846",
     email:"chandui17cy028@gmail.com",
     gmail:"chandui17cy028@gmail.com",
-    mail:"chandui17cy028@gmail.com"
+    mail:"chandui17cy028@gmail.com",
+    contact:"chandui17cy028@gmail.com"
 
 }
 
