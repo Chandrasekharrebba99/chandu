@@ -1,0 +1,474 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header,footer{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.animation{
+  height: 100vh;
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  position:relative;
+  overflow: hidden;
+}
+.paper-plane{
+  height: 100px;
+  position: absolute;
+  top:50%;
+  left:0%;
+}
+
+#preloader{
+  background:#000 url("https://media.tenor.com/UnFx-k_lSckAAAAM/amalie-steiness.gif") no-repeat center;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+
+}
+
+
+
+#section1{
+  background-image: url("images/bgimg.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+@media (max-width: 1000px) {
+
+      #section1 {
+            height: 50vh;
+            background-size: cover;
+       }
+
+}
+.kakshiimage{
+  opacity: 0.5;
+  height: 400px;
+}
+#topheadingid{
+  margin-top: 25px;
+  color: white;
+  text-align: center;
+  font-family: 'Bungee Spice', cursive;
+font-family: 'Noto Sans Mono', monospace;
+}
+.myname{
+  color: #C7F2A4;
+}
+.navbar{
+  
+  width:100vw;
+}
+.navicon{
+  height: 30px;
+}
+
+.robofont{
+  font-family: 'Bungee Spice', cursive;
+font-family: 'Noto Sans Mono', monospace;
+font-weight: bold;
+}
+body{
+  font-family: 'Bungee Spice', cursive;
+  font-family: 'Noto Sans Mono', monospace;
+  font-weight: bold;
+}
+
+
+/* about container */
+.section2{
+  height: 100vh;
+  background-color: #FBF2CF;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.aboutleft{
+  background-image: url("images/aboutus.png");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.abouttext{
+  margin-right:25px;
+  margin-left: 25px;
+}
+/* SKill Box*/
+.section3{
+  height: 100vh;
+  background-color: #16213E;
+}
+
+.skillsheding{
+  padding-top: 120px;
+  color: white;
+}
+.imageskill{
+  text-align: center;
+  margin-left: 35px;
+  width: 50px;
+}
+.imageskill:hover{
+  width: 70px;
+}
+.skillbox:hover{
+  height: 140px;
+  width: 140px;
+}
+.skillbox{
+  text-align: center;
+  margin: 5px;
+  border-radius: 1px;
+  height: 130px;
+  width: 130px;
+  background-color:#F5EFE6
+
+}
+.skillrightcont{
+  background-color: #F5EFE6;
+  color: black;
+}
+.skillimagestar{
+  height: 300px;
+}
+.hiremebtn{
+  color: white;
+  background-color:#16213E;
+}
+.hiremebtn:hover{
+  color: grey;
+}
+.openforhiire{
+  font-family: 'Bungee Spice', cursive;
+  font-family: 'Noto Sans Mono', monospace;
+  font-family: cursive;
+}
+/*Projectsclass*/
+.bluecard{
+  background-color: #16213E;
+}
+.Projectsclass{
+  background-color:#FBF2CF;
+  background-size: cover;
+  height: 100vh;
+}
+.verticle-line{
+
+  width: 5px;
+  height: 800px;
+  background-color: black;
+}
+/*college*/
+.educationdetails{
+  background-color: #F5EFE6;
+  width: 300px;
+  text-align: center;
+
+}
+.logocollege{
+  width:55px;
+}
+#EDUCATIONsection{
+  text-align: center;
+  background-color: #16213E;
+  height: 100vh;
+  padding: 150px;
+}
+.educationdetails:hover{
+  width: 350px;
+}
+/*CERTIFICATIONS*/
+
+#sectionCertificationsid{
+  height: 100vh;
+  background-color: #FBF2CF;
+}
+.card{
+  background-color: #F5EFE6;
+}
+
+.sectionCertifications1{
+  position: absolute;
+  left: 300px
+}
+.row3{
+  box-sizing: border-box;
+  width: 70%;
+  margin-right: 50px;
+
+}
+.cardcerti {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin:10px;
+  flex-wrap: wrap;
+  background-color: #16213E;
+  color: white;
+  border-radius: 6%;
+}
+
+.cardcerti:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.imagecerti{
+  width: 200px;
+  border-radius: 6%;
+}
+/*Contact*/
+#Contactsection{
+  background-color: #16213E;
+  height: 50vh;
+  color: white;
+  padding-top: 100px;
+}
+.Linkedincont{
+  width: 150px;
+}
+
+
+@media (max-width: 1000px) {
+
+      .section3 {
+            height: 50vh;
+            background-size: cover;
+       }
+
+}
+@media (max-width: 1000px) {
+
+  .section2 {
+        height: 50vh;
+   }
+
+}
+@media (max-width: 1000px) {
+
+  .aboutleft {
+        height: 50vh;
+        background-size: cover;
+   }
+}
+
+
+.box {
+  display: block;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  padding: 20px;
+}
+.box234 {
+  display: block;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  padding: 20px;
+}
+.box23 {
+  display: block;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  padding: 20px;
+}
+.green {
+  background-color: #EF9A53;
+}
+
+.orange {
+  background-color: #EF9A53;
+}
+
+.grey {
+  background-color: #EF9A53;
+}
+.mistakecard{
+  height: 0px;
+}
+.last-pro-card{
+  height: 400px;
+  border-radius: 10px;
+
+}
+
+
+
+
+/*dvsdv*/
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.msg-bg-cont {
+    box-shadow: 0px 0px 10px 0px black;
+    height: 500px;
+    width: 400px;
+    max-width: 400px;
+    max-height: 600px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+    box-sizing: border-box;
+    margin: 10px;
+    flex-shrink: 1;
+}
+
+.dontshow {
+    display: none;
+}
+
+body {
+    margin: 0px;
+}
+
+.chatbox {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.message-area {
+    height: 100%;
+    background-image: url('https://media.istockphoto.com/id/1219641933/vector/network-hand-drawn-print.jpg?s=1024x1024&w=is&k=20&c=NFwzHRE2kE8YyWkcWskVSVZpdYIsiFym9Z9_PzI9WVY=');
+    background-size: cover;
+    padding: 25px;
+}
+
+.image {
+    height: 60px;
+}
+
+.top-heading {
+    background-color: #0F3460;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    color: white;
+}
+
+.sendinput {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.imagesend {
+    height: 40px;
+}
+
+.sendinput.inputcont {
+    width: 90%;
+}
+
+.sendinput #inputid {
+    width: 300px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+.sendinput.sendbutton {
+    width: 10%;
+}
+
+.message-area {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding: 25px;
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+.replycl {
+    align-self: flex-start;
+    padding: 8px;
+    background-color: #0E5E6F;
+    margin-bottom: 10px;
+    color: white;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.parael {
+    padding: 8px;
+    background-color: #533483;
+    color: white;
+    align-self: flex-end;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.chatbot{
+  position:fixed;
+  right: 23px;
+  bottom: 23px;
+  z-index: 1;
+}
+
+
+/*Navbar*/
+.btmnavbar{
+  width: 40%;
+  height: 50px;
+  background-color: #EFF5F5;
+  position: fixed;
+  bottom: 15px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 35px;
+  padding-right: 35px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  z-index:1;
+  margin-left: 25px;
+}
+.fa-solid{
+  color: #393E46;
+}
+.bg-cont-for-nav{
+  display: flex;
+  justify-content: center;
+}
+html{
+  scroll-behavior: smooth;
+}
