@@ -89,7 +89,10 @@ const responceobj = {
     help: "How may I assist you",
     hi: "Hi there! Welcome to my projects",
     name: "This is a bot",
-    number:"6302888846"
+    number:"6302888846",
+    email:"chandui17cy028@gmail.com",
+    gmail:"chandui17cy028@gmail.com",
+    mail:"chandui17cy028@gmail.com"
 
 }
 
@@ -109,7 +112,7 @@ function sendandreply() {
         }
         if(reply == "undefined"){
             setTimeout(function() {
-                replymessege("This is just a prototype");
+                replymessege("This is just a prototype mail me to chandui17cy028@gmail.com");
                 setScrollpostion();
             }, 700);
             inputid.value = "";
